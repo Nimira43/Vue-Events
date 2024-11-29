@@ -6,7 +6,11 @@ export default function page() {
       <h1 className='text-[#028ec6]'>Stour End Motors</h1>
       <Button
         type='primary'
-      >Button</Button>
+      >Confirm</Button>
+      
+      <Button
+        type='default'
+      >Cancel</Button>
     </div>
   )
 }
