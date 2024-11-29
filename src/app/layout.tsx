@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'Stour End Motors',
-  description: 'Using Next JS, Ant Desing, Mongo DB and Clerk',
+  description: 'Using Next JS, Ant Design, Mongo DB and Clerk',
 }
 
 export default function RootLayout({
