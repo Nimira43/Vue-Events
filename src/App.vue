@@ -1,11 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
-  <h1>Vue Events</h1>
+  <main>
+    <h1>Vue Events</h1>
+  </main>
 </template>
-
-<style scoped>
-
-</style>
