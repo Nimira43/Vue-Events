@@ -10,7 +10,10 @@
       >
         Register
       </button>
-
+      <Button 
+        label="Register"
+        @click="$emit('register')"
+      />
     </section>
   </div>
 </template>
