@@ -8,7 +8,8 @@
         :key="i" 
         eventName="Coding Conference 2025"
         date="4th April 2025"
-        description="Latest developments in the world of Frameworks"  
+        description="Latest developments in the world of Frameworks"
+        @register="console.log('Registered!!!');"  
       />
     </section>
     <h2 class="text-2xl font-medium  uppercase">Your Bookings</h2>
