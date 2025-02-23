@@ -4,7 +4,10 @@
     <p class="p-4 text-dark font-normal uppercase">{{ date }}</p>
     <p class="p-4 text-dark font-normal uppercase">{{ description }}</p>
     <section class="flex justify-end p-4">
-      <button class="bg-prime text-light py-2 px-3 rounded-md hover:bg-prime-light cursor-pointer text-sm uppercase">
+      <button 
+        class="bg-prime text-light py-2 px-3 rounded-md hover:bg-prime-light cursor-pointer text-sm uppercase"
+        @click="$emit('register')"
+      >
         Register
       </button>
 
