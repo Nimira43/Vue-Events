@@ -10,7 +10,7 @@
       >
         Register
       </button> -->
-      <Button 
+      <CustomButton 
         label="Register"
         @click="$emit('register')"
       />
@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-import Button from '@/components/Button.vue';
+import CustomButton from '@/components/CustomButton.vue'
 defineProps({
   eventName: String,
   date: String,
