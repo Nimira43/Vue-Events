@@ -4,10 +4,9 @@
     <p class="p-4 text-dark font-normal uppercase">{{ date }}</p>
     <p class="p-4 text-dark font-normal">{{ description }}</p>
     <section class="flex justify-end p-4">
-      <RoundButton 
-        label="Register"
-        @click="$emit('register')"
-      />
+      <RoundButton @click="$emit('register')">
+        Register
+      </RoundButton>
     </section>
   </div>
 </template>
